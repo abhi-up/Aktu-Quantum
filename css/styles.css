@@ -115,3 +115,98 @@ p{
     margin-left: 175px;
     color: blue;
 }
+
+
+
+@media only screen and (max-width: 395px) {
+  
+    html,body{
+       margin: 0;
+       padding: 0;
+       font-family: "poppins", sans-serif; 
+       overflow-y: hidden;
+    }
+ 
+ 
+    .container{
+    display: flex;
+ }
+ 
+    .header .logo {
+    width: 100px;
+    margin: 5px 0 0 5px;
+}
+h1 {
+    color: white;
+    display: inline-block;
+    font-size: 1.5em;
+    position: absolute;
+    top: 20px;
+    text-align: center;
+    margin-left: 2px;
+    
+    FONT-WEIGHT: 500;
+}
+span {
+    font-size: 30px;
+    color: yellow;
+    font-family: 'Kaushan Script', cursive;
+}
+
+.quantum {
+    height: 400px;
+    margin-top: 30px;
+    margin-left: 20px;
+    width: 90%;
+    background: rgba(247, 250, 247, 0.728);
+    /* display: inline-block; */
+}
+
+h2 {
+    font-size: 35px;
+    margin: 4px 0 10px 30px;
+    font-family: 'Kaushan Script', cursive;
+}
+.btn {
+    
+    -webkit-border-radius: 5;
+    -moz-border-radius: 5;
+    border-radius: 5px;
+    font-family: 'Signika', sans-serif;
+    color: #ffffff;
+    font-size: 22px;
+    padding: 10px 20px 10px 20px;
+    border: solid #000000 2px;
+    text-decoration: none;
+    margin: 0px 0px 10px 10px;
+}
+
+.side {
+    margin-top: 450px;
+    margin-left: 20px;
+    width: 90%;
+    
+}
+.scan {
+    font-size: 25px;
+    text-align: center;
+    margin-left: 0px;
+}
+
+.qr-code-image {
+    width: 150px;
+    margin-left: 85px;
+}
+
+h3 {
+    padding: 5px;
+    margin-left: 1px;
+    margin-bottom: 2px;
+}
+
+.name {
+    margin-top: 0px;
+    margin-left: 5px;
+    color: blue;
+}
+}
